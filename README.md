@@ -126,6 +126,14 @@ Full raw output is available in `results.txt`.
 
 ---
 
+## Results
+
+An example run output is included in `results.txt`.
+
+Results will vary slightly between runs due to OS scheduling and caching effects, but relative performance trends remain consistent.
+
+---
+
 ## File Structure
 
 ```
