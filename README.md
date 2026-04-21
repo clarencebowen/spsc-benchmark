@@ -16,6 +16,15 @@ The goal is to quantify the impact of synchronization strategy on:
 
 ---
 
+## Key Takeaways
+
+- **Throughput (burst):** ~18–28 M msgs/sec (SPSC) vs ~5 M (mutex) -> ~3–5× higher
+- **Latency (median):** ~3–5× lower than mutex under load
+- **Tail latency (P99):** significantly lower than mutex in burst scenarios
+- **Low-load case:** differences narrow; OS effects dominate
+
+---
+
 ## System Context
 
 Results depend heavily on CPU architecture, cache topology, and OS scheduling behavior.
