@@ -161,3 +161,9 @@ spsc_benchmark/
 - Close heavy background applications while testing
 - Expect variation in exact numbers between runs
 
+---
+## FPGA / RTL
+
+The `rtl/` directory contains a SystemVerilog AXI4-Stream formatter that emits fixed 32-byte records matching the C `packet_t` layout used by this benchmark.
+
+It defines the hardware-side record format for a future integration where records are written into memory and consumed by the SPSC queue.
